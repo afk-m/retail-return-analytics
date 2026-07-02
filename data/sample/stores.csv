@@ -1,0 +1,21 @@
+store_id,store_name,city,province,region,store_type,open_date
+S001,Brampton Outlet,Brampton,ON,Greater Toronto Area,outlet,2023-03-07
+S002,Waterloo Neighbourhood,Waterloo,ON,Southwestern Ontario,neighbourhood,2011-12-21
+S003,Peterborough Flagship,Peterborough,ON,Central Ontario,flagship,2015-03-11
+S004,Sudbury Outlet,Sudbury,ON,Northern Ontario,outlet,2014-05-08
+S005,Thunder Bay Mall,Thunder Bay,ON,Northern Ontario,mall,2016-12-23
+S006,Kitchener Mall,Kitchener,ON,Southwestern Ontario,mall,2021-06-03
+S007,St. Catharines Outlet,St. Catharines,ON,Golden Horseshoe,outlet,2013-06-09
+S008,Oakville Mall,Oakville,ON,Greater Toronto Area,mall,2010-08-23
+S009,London Mall,London,ON,Southwestern Ontario,mall,2023-05-05
+S010,Hamilton Mall,Hamilton,ON,Golden Horseshoe,mall,2022-11-25
+S011,Burlington Outlet,Burlington,ON,Golden Horseshoe,outlet,2014-01-16
+S012,Vaughan Outlet,Vaughan,ON,Greater Toronto Area,outlet,2011-07-02
+S013,Windsor Warehouse,Windsor,ON,Southwestern Ontario,warehouse,2018-11-09
+S014,Ottawa Mall,Ottawa,ON,Eastern Ontario,mall,2017-07-20
+S015,Guelph Flagship,Guelph,ON,Southwestern Ontario,flagship,2019-07-13
+S016,Toronto Mall,Toronto,ON,Greater Toronto Area,mall,2013-07-07
+S017,Kingston Flagship,Kingston,ON,Eastern Ontario,flagship,2016-05-18
+S018,Barrie Neighbourhood,Barrie,ON,Central Ontario,neighbourhood,2018-06-18
+S019,Mississauga Neighbourhood,Mississauga,ON,Greater Toronto Area,neighbourhood,2019-05-01
+S020,Niagara Falls Outlet,Niagara Falls,ON,Golden Horseshoe,outlet,2019-04-24

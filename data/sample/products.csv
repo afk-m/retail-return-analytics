@@ -1,0 +1,501 @@
+product_id,product_name,product_category,product_subcategory,brand,unit_price,cost,active_flag
+P000001,Urban Trail Household Tempore,grocery,household,Urban Trail,21.93,13.8,True
+P000002,Summit House Cycling Culpa,sporting_goods,cycling,Summit House,50.71,23.25,True
+P000003,Canopy Co. Kitchen Alias,home,kitchen,Canopy Co.,41.8,27.88,True
+P000004,Cedar Works Tops Harum,apparel,tops,Cedar Works,21.51,14.37,True
+P000005,Trueleaf Household Exercitationem,grocery,household,TrueLeaf,27.12,18.65,True
+P000006,Urban Trail Bottoms Et,apparel,bottoms,Urban Trail,39.03,18.2,True
+P000007,Canopy Co. Snacks Deserunt,grocery,snacks,Canopy Co.,12.42,6.6,True
+P000008,Northline Outerwear Corporis,apparel,outerwear,Northline,22.69,11.07,True
+P000009,Summit House Kitchen Veritatis,home,kitchen,Summit House,22.52,11.57,True
+P000010,Trueleaf Pet Quisquam,grocery,pet,TrueLeaf,17.26,10.78,True
+P000011,Maple & Main Accessories Commodi,apparel,accessories,Maple & Main,37.72,23.36,True
+P000012,Urban Trail Beverages Rerum,grocery,beverages,Urban Trail,11.73,5.42,True
+P000013,Urban Trail Makeup Nisi,beauty,makeup,Urban Trail,13.16,8.54,True
+P000014,Cedar Works Skincare Aliquid,beauty,skincare,Cedar Works,35.42,15.2,True
+P000015,Trueleaf Bottoms Aliquam,apparel,bottoms,TrueLeaf,18.65,9.14,True
+P000016,Harbour Goods Gaming Consectetur,electronics,gaming,Harbour Goods,161.31,94.71,True
+P000017,Trueleaf Fragrance Esse,beauty,fragrance,TrueLeaf,30.96,14.55,True
+P000018,Fieldstone Footwear Eveniet,apparel,footwear,Fieldstone,41.23,19.31,True
+P000019,Fieldstone Outerwear Quae,apparel,outerwear,Fieldstone,44.68,23.87,True
+P000020,Trueleaf Makeup Sed,beauty,makeup,TrueLeaf,14.46,6.58,False
+P000021,Fieldstone Team Sports Alias,sporting_goods,team_sports,Fieldstone,49.01,34.83,True
+P000022,Urban Trail Household Ratione,grocery,household,Urban Trail,14.26,6.4,True
+P000023,Lakeview Storage Eius,home,storage,Lakeview,50.26,29.84,True
+P000024,Summit House Pantry Totam,grocery,pantry,Summit House,12.33,6.77,True
+P000025,Brightnest Skincare Voluptates,beauty,skincare,BrightNest,17.13,9.33,True
+P000026,Harbour Goods Kitchen Quisquam,home,kitchen,Harbour Goods,48.35,21.81,True
+P000027,Canopy Co. Bottoms Nihil,apparel,bottoms,Canopy Co.,27.79,14.56,True
+P000028,Canopy Co. Tops Est,apparel,tops,Canopy Co.,20.97,13.73,True
+P000029,Urban Trail Storage Occaecati,home,storage,Urban Trail,49.76,29.43,True
+P000030,Harbour Goods Gaming Repudiandae,electronics,gaming,Harbour Goods,74.38,41.04,True
+P000031,Evervale Pantry Hic,grocery,pantry,Evervale,14.56,8.54,True
+P000032,Harbour Goods Skincare Ab,beauty,skincare,Harbour Goods,28.85,18.41,True
+P000033,Evervale Footwear Dolore,apparel,footwear,Evervale,19.43,8.38,True
+P000034,Summit House Bedding Voluptatem,home,bedding,Summit House,61.51,31.69,True
+P000035,Cedar Works Smart Home Nisi,electronics,smart_home,Cedar Works,96.69,67.76,True
+P000036,Urban Trail Bottoms Laboriosam,apparel,bottoms,Urban Trail,18.63,12.81,True
+P000037,Evervale Outdoor Hic,sporting_goods,outdoor,Evervale,70.61,36.35,True
+P000038,Trueleaf Fragrance Dolor,beauty,fragrance,TrueLeaf,30.62,19.72,True
+P000039,Lakeview Winter Sports Esse,sporting_goods,winter_sports,Lakeview,149.61,100.14,True
+P000040,Brightnest Bottoms Labore,apparel,bottoms,BrightNest,20.12,10.32,True
+P000041,Cedar Works Team Sports Corporis,sporting_goods,team_sports,Cedar Works,55.15,23.39,True
+P000042,Fieldstone Tops Consectetur,apparel,tops,Fieldstone,13.16,7.53,True
+P000043,Lakeview Fragrance Modi,beauty,fragrance,Lakeview,22.56,14.32,True
+P000044,Northline Outerwear Consequatur,apparel,outerwear,Northline,41.26,22.25,True
+P000045,Brightnest Decor Magnam,home,decor,BrightNest,78.94,39.94,True
+P000046,Cedar Works Outerwear Laborum,apparel,outerwear,Cedar Works,35.85,16.2,True
+P000047,Canopy Co. Kitchen Sed,home,kitchen,Canopy Co.,103.38,72.36,True
+P000048,Summit House Storage Fuga,home,storage,Summit House,47.36,21.44,True
+P000049,Lakeview Beverages Aperiam,grocery,beverages,Lakeview,14.54,8.75,True
+P000050,Trueleaf Haircare Officia,beauty,haircare,TrueLeaf,18.16,11.18,True
+P000051,Lakeview Decor Quidem,home,decor,Lakeview,21.25,13.68,True
+P000052,Maple & Main Accessories Cupiditate,apparel,accessories,Maple & Main,28.06,13.01,True
+P000053,Northline Gaming Minus,electronics,gaming,Northline,171.42,80.51,True
+P000054,Northline Outerwear Beatae,apparel,outerwear,Northline,29.75,12.99,True
+P000055,Brightnest Outerwear Quod,apparel,outerwear,BrightNest,52.23,28.11,True
+P000056,Evervale Storage Impedit,home,storage,Evervale,28.2,12.21,True
+P000057,Lakeview Audio Sunt,electronics,audio,Lakeview,299.27,163.07,True
+P000058,Cedar Works Cleaning Sit,home,cleaning,Cedar Works,23.19,15.54,True
+P000059,Northline Cycling Magni,sporting_goods,cycling,Northline,100.49,69.42,False
+P000060,Summit House Beverages Repellat,grocery,beverages,Summit House,16.02,10.47,True
+P000061,Cedar Works Bedding Earum,home,bedding,Cedar Works,84.42,47.17,True
+P000062,Harbour Goods Haircare Voluptatibus,beauty,haircare,Harbour Goods,22.23,12.52,True
+P000063,Trueleaf Audio Atque,electronics,audio,TrueLeaf,182.12,94.38,True
+P000064,Harbour Goods Snacks Aperiam,grocery,snacks,Harbour Goods,28.08,19.51,True
+P000065,Cedar Works Computers Ut,electronics,computers,Cedar Works,337.23,207.66,True
+P000066,Brightnest Storage Eum,home,storage,BrightNest,28.54,18.28,True
+P000067,Evervale Beverages Illum,grocery,beverages,Evervale,16.15,9.76,True
+P000068,Northline Beverages Beatae,grocery,beverages,Northline,7.71,3.56,True
+P000069,Brightnest Beverages Eveniet,grocery,beverages,BrightNest,20.84,13.72,True
+P000070,Brightnest Smart Home Consequuntur,electronics,smart_home,BrightNest,62.19,37.62,True
+P000071,Cedar Works Skincare Modi,beauty,skincare,Cedar Works,10.31,5.95,True
+P000072,Urban Trail Beverages Hic,grocery,beverages,Urban Trail,6.18,4.32,True
+P000073,Northline Footwear Odit,apparel,footwear,Northline,39.09,21.32,True
+P000074,Trueleaf Makeup Tempora,beauty,makeup,TrueLeaf,28.31,18.37,True
+P000075,Harbour Goods Computers Maiores,electronics,computers,Harbour Goods,89.41,41.52,True
+P000076,Trueleaf Storage Dolorem,home,storage,TrueLeaf,84.84,49.71,True
+P000077,Urban Trail Household Maxime,grocery,household,Urban Trail,15.72,11.26,True
+P000078,Northline Team Sports Libero,sporting_goods,team_sports,Northline,217.07,132.65,True
+P000079,Fieldstone Skincare Eos,beauty,skincare,Fieldstone,26.93,14.98,True
+P000080,Urban Trail Gaming Velit,electronics,gaming,Urban Trail,57.06,29.13,True
+P000081,Northline Beverages Fugiat,grocery,beverages,Northline,5.53,3.78,True
+P000082,Northline Pantry Voluptates,grocery,pantry,Northline,16.65,7.44,True
+P000083,Lakeview Bottoms Vero,apparel,bottoms,Lakeview,30.54,19.95,True
+P000084,Brightnest Outdoor Tenetur,sporting_goods,outdoor,BrightNest,52.13,21.98,True
+P000085,Summit House Personal Care Aut,beauty,personal_care,Summit House,14.26,9.62,True
+P000086,Canopy Co. Pet Sequi,grocery,pet,Canopy Co.,17.1,10.76,True
+P000087,Lakeview Outerwear Tempora,apparel,outerwear,Lakeview,60.89,37.08,True
+P000088,Fieldstone Accessories Dolores,apparel,accessories,Fieldstone,22.21,11.13,True
+P000089,Brightnest Cycling Quibusdam,sporting_goods,cycling,BrightNest,74.89,45.3,True
+P000090,Fieldstone Beverages Exercitationem,grocery,beverages,Fieldstone,23.75,10.63,True
+P000091,Urban Trail Team Sports Dolorem,sporting_goods,team_sports,Urban Trail,76.35,46.64,True
+P000092,Canopy Co. Bottoms Officiis,apparel,bottoms,Canopy Co.,28.38,16.84,True
+P000093,Canopy Co. Fragrance Modi,beauty,fragrance,Canopy Co.,30.06,17.21,True
+P000094,Northline Kitchen Fugit,home,kitchen,Northline,41.88,21.08,True
+P000095,Brightnest Storage Tempore,home,storage,BrightNest,39.93,21.7,True
+P000096,Brightnest Accessories Voluptas,apparel,accessories,BrightNest,20.03,8.63,True
+P000097,Lakeview Kitchen Quos,home,kitchen,Lakeview,25.0,14.74,True
+P000098,Brightnest Fragrance Est,beauty,fragrance,BrightNest,33.04,21.68,True
+P000099,Brightnest Decor Vitae,home,decor,BrightNest,148.24,85.06,True
+P000100,Canopy Co. Pantry Itaque,grocery,pantry,Canopy Co.,15.25,8.78,True
+P000101,Evervale Computers Aspernatur,electronics,computers,Evervale,158.52,106.62,True
+P000102,Trueleaf Computers Eum,electronics,computers,TrueLeaf,80.15,41.21,True
+P000103,Summit House Outerwear Aliquid,apparel,outerwear,Summit House,16.9,8.98,True
+P000104,Northline Makeup Ipsam,beauty,makeup,Northline,7.88,5.57,False
+P000105,Harbour Goods Beverages Natus,grocery,beverages,Harbour Goods,19.28,12.18,True
+P000106,Maple & Main Haircare Fugiat,beauty,haircare,Maple & Main,35.39,20.44,True
+P000107,Evervale Outerwear At,apparel,outerwear,Evervale,68.93,40.44,True
+P000108,Northline Cycling Error,sporting_goods,cycling,Northline,130.6,70.23,True
+P000109,Urban Trail Pantry Reiciendis,grocery,pantry,Urban Trail,31.63,14.71,True
+P000110,Maple & Main Winter Sports Ipsam,sporting_goods,winter_sports,Maple & Main,25.5,12.95,True
+P000111,Urban Trail Makeup Error,beauty,makeup,Urban Trail,18.83,9.28,True
+P000112,Brightnest Fragrance Ullam,beauty,fragrance,BrightNest,23.3,15.12,True
+P000113,Cedar Works Smart Home Praesentium,electronics,smart_home,Cedar Works,158.2,106.52,True
+P000114,Evervale Household Nam,grocery,household,Evervale,15.04,10.42,True
+P000115,Trueleaf Snacks Temporibus,grocery,snacks,TrueLeaf,10.49,5.66,True
+P000116,Lakeview Haircare Officia,beauty,haircare,Lakeview,36.97,17.65,True
+P000117,Urban Trail Cycling Dicta,sporting_goods,cycling,Urban Trail,66.91,40.12,True
+P000118,Fieldstone Mobile Accessories Fuga,electronics,mobile_accessories,Fieldstone,113.62,81.19,True
+P000119,Summit House Cleaning Deserunt,home,cleaning,Summit House,48.51,30.86,False
+P000120,Evervale Beverages Expedita,grocery,beverages,Evervale,21.57,13.8,True
+P000121,Brightnest Personal Care Ratione,beauty,personal_care,BrightNest,49.13,35.15,True
+P000122,Fieldstone Pet Quidem,grocery,pet,Fieldstone,12.93,5.91,True
+P000123,Urban Trail Pet Fuga,grocery,pet,Urban Trail,22.55,12.62,False
+P000124,Summit House Kitchen Reprehenderit,home,kitchen,Summit House,76.49,44.87,True
+P000125,Summit House Team Sports Nobis,sporting_goods,team_sports,Summit House,77.2,41.06,True
+P000126,Fieldstone Accessories Reprehenderit,apparel,accessories,Fieldstone,17.45,11.38,True
+P000127,Summit House Snacks Natus,grocery,snacks,Summit House,17.44,8.55,True
+P000128,Maple & Main Beverages Magni,grocery,beverages,Maple & Main,17.65,11.0,True
+P000129,Evervale Storage Est,home,storage,Evervale,79.94,39.28,True
+P000130,Evervale Smart Home Deserunt,electronics,smart_home,Evervale,74.91,44.73,True
+P000131,Evervale Computers Quaerat,electronics,computers,Evervale,45.63,20.33,True
+P000132,Summit House Beverages Possimus,grocery,beverages,Summit House,39.4,20.05,True
+P000133,Cedar Works Tops Consectetur,apparel,tops,Cedar Works,15.2,8.17,True
+P000134,Northline Bedding Architecto,home,bedding,Northline,93.13,40.99,True
+P000135,Urban Trail Bottoms Culpa,apparel,bottoms,Urban Trail,35.87,18.76,True
+P000136,Summit House Winter Sports Dolor,sporting_goods,winter_sports,Summit House,36.73,18.56,True
+P000137,Harbour Goods Computers Sunt,electronics,computers,Harbour Goods,139.41,80.7,True
+P000138,Brightnest Makeup Dolore,beauty,makeup,BrightNest,19.38,9.54,True
+P000139,Evervale Bottoms Vero,apparel,bottoms,Evervale,39.38,23.17,True
+P000140,Urban Trail Household Nisi,grocery,household,Urban Trail,20.72,14.89,True
+P000141,Evervale Household Saepe,grocery,household,Evervale,12.86,6.12,True
+P000142,Brightnest Outerwear At,apparel,outerwear,BrightNest,27.35,15.7,True
+P000143,Canopy Co. Accessories Molestiae,apparel,accessories,Canopy Co.,22.83,9.87,True
+P000144,Urban Trail Accessories Modi,apparel,accessories,Urban Trail,30.25,15.54,True
+P000145,Trueleaf Footwear Saepe,apparel,footwear,TrueLeaf,53.1,33.42,True
+P000146,Trueleaf Computers Omnis,electronics,computers,TrueLeaf,156.53,65.82,True
+P000147,Maple & Main Pantry Quia,grocery,pantry,Maple & Main,14.23,8.06,True
+P000148,Summit House Decor Explicabo,home,decor,Summit House,24.26,12.08,True
+P000149,Urban Trail Gaming Quod,electronics,gaming,Urban Trail,52.14,25.47,True
+P000150,Maple & Main Team Sports Accusamus,sporting_goods,team_sports,Maple & Main,32.6,20.65,True
+P000151,Northline Bottoms Vero,apparel,bottoms,Northline,37.53,15.87,True
+P000152,Northline Tops Cum,apparel,tops,Northline,12.05,5.93,True
+P000153,Evervale Makeup Vero,beauty,makeup,Evervale,26.83,18.14,True
+P000154,Summit House Accessories Quidem,apparel,accessories,Summit House,22.16,11.0,True
+P000155,Brightnest Cleaning Fugiat,home,cleaning,BrightNest,98.75,52.19,True
+P000156,Summit House Computers Temporibus,electronics,computers,Summit House,135.61,65.76,True
+P000157,Maple & Main Gaming Laboriosam,electronics,gaming,Maple & Main,126.29,66.17,True
+P000158,Fieldstone Footwear Culpa,apparel,footwear,Fieldstone,70.58,45.29,True
+P000159,Brightnest Fitness Impedit,sporting_goods,fitness,BrightNest,60.74,28.13,True
+P000160,Cedar Works Footwear Nostrum,apparel,footwear,Cedar Works,18.43,7.76,True
+P000161,Brightnest Team Sports Dolore,sporting_goods,team_sports,BrightNest,60.72,41.85,True
+P000162,Brightnest Kitchen Odit,home,kitchen,BrightNest,37.5,16.32,True
+P000163,Brightnest Audio A,electronics,audio,BrightNest,28.48,12.12,True
+P000164,Evervale Gaming Fuga,electronics,gaming,Evervale,102.23,61.67,True
+P000165,Fieldstone Storage Provident,home,storage,Fieldstone,76.99,45.43,True
+P000166,Urban Trail Fitness Dolorum,sporting_goods,fitness,Urban Trail,68.0,28.81,True
+P000167,Trueleaf Decor Quae,home,decor,TrueLeaf,29.55,20.3,True
+P000168,Northline Beverages Corrupti,grocery,beverages,Northline,9.37,4.44,True
+P000169,Evervale Pet Sunt,grocery,pet,Evervale,9.27,5.2,True
+P000170,Trueleaf Household In,grocery,household,TrueLeaf,14.84,9.53,True
+P000171,Cedar Works Pet Tempore,grocery,pet,Cedar Works,9.42,6.51,True
+P000172,Northline Beverages Quae,grocery,beverages,Northline,29.74,19.12,True
+P000173,Trueleaf Winter Sports Sequi,sporting_goods,winter_sports,TrueLeaf,158.31,108.64,True
+P000174,Brightnest Audio Eius,electronics,audio,BrightNest,180.53,97.98,True
+P000175,Urban Trail Team Sports Dolor,sporting_goods,team_sports,Urban Trail,99.46,53.03,True
+P000176,Northline Bottoms Minima,apparel,bottoms,Northline,40.09,20.92,True
+P000177,Northline Mobile Accessories Dolorem,electronics,mobile_accessories,Northline,95.5,65.35,True
+P000178,Lakeview Accessories Quis,apparel,accessories,Lakeview,27.57,15.46,True
+P000179,Urban Trail Tops Quia,apparel,tops,Urban Trail,45.88,28.25,True
+P000180,Harbour Goods Bottoms A,apparel,bottoms,Harbour Goods,29.98,19.47,True
+P000181,Canopy Co. Fitness Sapiente,sporting_goods,fitness,Canopy Co.,32.75,23.12,True
+P000182,Harbour Goods Accessories Iste,apparel,accessories,Harbour Goods,27.27,12.25,True
+P000183,Cedar Works Fragrance Porro,beauty,fragrance,Cedar Works,21.9,10.86,True
+P000184,Brightnest Snacks Ad,grocery,snacks,BrightNest,10.61,5.4,True
+P000185,Summit House Kitchen Culpa,home,kitchen,Summit House,37.57,18.11,True
+P000186,Evervale Bottoms Magni,apparel,bottoms,Evervale,18.64,9.31,True
+P000187,Trueleaf Footwear Inventore,apparel,footwear,TrueLeaf,42.52,20.99,True
+P000188,Evervale Beverages Excepturi,grocery,beverages,Evervale,10.14,5.87,True
+P000189,Northline Audio Aspernatur,electronics,audio,Northline,54.22,37.22,True
+P000190,Urban Trail Bedding Excepturi,home,bedding,Urban Trail,37.16,21.59,True
+P000191,Northline Bottoms Reiciendis,apparel,bottoms,Northline,40.52,22.88,True
+P000192,Cedar Works Bottoms Beatae,apparel,bottoms,Cedar Works,19.73,9.78,True
+P000193,Canopy Co. Tops Blanditiis,apparel,tops,Canopy Co.,49.35,29.73,True
+P000194,Cedar Works Decor Placeat,home,decor,Cedar Works,47.84,34.28,True
+P000195,Urban Trail Snacks Atque,grocery,snacks,Urban Trail,19.17,13.35,True
+P000196,Trueleaf Accessories Quibusdam,apparel,accessories,TrueLeaf,26.63,16.16,True
+P000197,Lakeview Pet Debitis,grocery,pet,Lakeview,16.59,9.15,True
+P000198,Canopy Co. Outerwear Debitis,apparel,outerwear,Canopy Co.,29.51,12.95,True
+P000199,Northline Outerwear Unde,apparel,outerwear,Northline,31.57,16.98,True
+P000200,Fieldstone Computers Pariatur,electronics,computers,Fieldstone,215.57,133.22,True
+P000201,Canopy Co. Storage Quo,home,storage,Canopy Co.,18.81,8.9,True
+P000202,Maple & Main Beverages Doloremque,grocery,beverages,Maple & Main,8.32,5.72,True
+P000203,Cedar Works Team Sports Fuga,sporting_goods,team_sports,Cedar Works,46.27,23.63,True
+P000204,Fieldstone Smart Home Quia,electronics,smart_home,Fieldstone,92.13,54.22,True
+P000205,Evervale Storage Sequi,home,storage,Evervale,61.06,37.5,True
+P000206,Urban Trail Decor Nisi,home,decor,Urban Trail,40.51,18.13,True
+P000207,Brightnest Makeup Error,beauty,makeup,BrightNest,30.01,15.54,True
+P000208,Evervale Pet Quis,grocery,pet,Evervale,9.77,6.06,True
+P000209,Northline Smart Home Voluptas,electronics,smart_home,Northline,153.51,95.55,True
+P000210,Cedar Works Accessories Eligendi,apparel,accessories,Cedar Works,12.83,9.05,True
+P000211,Brightnest Audio Ipsa,electronics,audio,BrightNest,206.82,147.43,True
+P000212,Maple & Main Beverages Natus,grocery,beverages,Maple & Main,12.33,8.42,True
+P000213,Canopy Co. Kitchen Velit,home,kitchen,Canopy Co.,56.75,29.32,True
+P000214,Brightnest Decor Totam,home,decor,BrightNest,27.63,13.63,True
+P000215,Evervale Outdoor Minima,sporting_goods,outdoor,Evervale,76.76,49.39,True
+P000216,Urban Trail Pantry Nulla,grocery,pantry,Urban Trail,8.42,4.14,True
+P000217,Harbour Goods Audio Quas,electronics,audio,Harbour Goods,135.82,73.75,True
+P000218,Evervale Snacks Odio,grocery,snacks,Evervale,11.71,4.94,True
+P000219,Evervale Pantry Cumque,grocery,pantry,Evervale,15.11,9.85,True
+P000220,Canopy Co. Decor Expedita,home,decor,Canopy Co.,25.62,11.95,True
+P000221,Canopy Co. Personal Care Et,beauty,personal_care,Canopy Co.,45.79,20.19,True
+P000222,Harbour Goods Snacks At,grocery,snacks,Harbour Goods,16.44,10.18,True
+P000223,Lakeview Beverages Labore,grocery,beverages,Lakeview,13.81,8.09,True
+P000224,Brightnest Household Adipisci,grocery,household,BrightNest,11.64,8.38,True
+P000225,Fieldstone Footwear Repudiandae,apparel,footwear,Fieldstone,51.32,26.46,True
+P000226,Maple & Main Bedding Quod,home,bedding,Maple & Main,52.45,27.59,True
+P000227,Summit House Pet Eum,grocery,pet,Summit House,28.12,14.52,True
+P000228,Urban Trail Pantry Repudiandae,grocery,pantry,Urban Trail,14.04,6.5,True
+P000229,Northline Bottoms Est,apparel,bottoms,Northline,38.8,17.08,True
+P000230,Urban Trail Tops Ab,apparel,tops,Urban Trail,29.78,12.82,True
+P000231,Lakeview Snacks Aut,grocery,snacks,Lakeview,14.02,9.51,True
+P000232,Summit House Decor Voluptatum,home,decor,Summit House,80.71,43.45,True
+P000233,Summit House Audio Suscipit,electronics,audio,Summit House,93.49,60.31,True
+P000234,Lakeview Decor Assumenda,home,decor,Lakeview,30.83,19.9,True
+P000235,Lakeview Bottoms Eum,apparel,bottoms,Lakeview,52.38,34.94,True
+P000236,Northline Winter Sports Atque,sporting_goods,winter_sports,Northline,44.31,24.57,True
+P000237,Canopy Co. Pet Aliquid,grocery,pet,Canopy Co.,5.19,2.48,True
+P000238,Harbour Goods Personal Care Iure,beauty,personal_care,Harbour Goods,14.11,8.33,True
+P000239,Fieldstone Snacks Aut,grocery,snacks,Fieldstone,13.0,5.65,True
+P000240,Harbour Goods Storage Quam,home,storage,Harbour Goods,24.56,15.9,True
+P000241,Trueleaf Skincare Ex,beauty,skincare,TrueLeaf,29.86,17.22,True
+P000242,Fieldstone Makeup Hic,beauty,makeup,Fieldstone,33.22,13.96,True
+P000243,Brightnest Cycling Velit,sporting_goods,cycling,BrightNest,84.53,58.08,True
+P000244,Canopy Co. Cleaning Placeat,home,cleaning,Canopy Co.,58.85,28.52,True
+P000245,Fieldstone Bottoms Error,apparel,bottoms,Fieldstone,64.6,29.05,True
+P000246,Lakeview Decor Quis,home,decor,Lakeview,38.43,26.06,True
+P000247,Maple & Main Audio Delectus,electronics,audio,Maple & Main,491.34,245.4,True
+P000248,Evervale Accessories Rem,apparel,accessories,Evervale,24.02,10.81,True
+P000249,Brightnest Outerwear Repellat,apparel,outerwear,BrightNest,19.34,13.07,True
+P000250,Cedar Works Household Pariatur,grocery,household,Cedar Works,22.25,9.64,True
+P000251,Canopy Co. Computers Exercitationem,electronics,computers,Canopy Co.,147.18,97.41,True
+P000252,Urban Trail Outdoor Pariatur,sporting_goods,outdoor,Urban Trail,63.28,34.12,True
+P000253,Harbour Goods Footwear Nemo,apparel,footwear,Harbour Goods,43.74,19.72,True
+P000254,Trueleaf Fragrance Eaque,beauty,fragrance,TrueLeaf,20.86,11.46,True
+P000255,Canopy Co. Winter Sports Consequatur,sporting_goods,winter_sports,Canopy Co.,54.91,28.48,True
+P000256,Urban Trail Haircare Consequatur,beauty,haircare,Urban Trail,29.1,17.06,True
+P000257,Trueleaf Mobile Accessories Unde,electronics,mobile_accessories,TrueLeaf,336.22,157.96,True
+P000258,Lakeview Cleaning Non,home,cleaning,Lakeview,32.34,20.92,True
+P000259,Canopy Co. Pet Libero,grocery,pet,Canopy Co.,20.96,13.01,True
+P000260,Trueleaf Winter Sports Nisi,sporting_goods,winter_sports,TrueLeaf,74.08,43.98,True
+P000261,Fieldstone Accessories Neque,apparel,accessories,Fieldstone,39.0,16.69,True
+P000262,Urban Trail Snacks Omnis,grocery,snacks,Urban Trail,22.38,9.44,True
+P000263,Evervale Gaming Asperiores,electronics,gaming,Evervale,404.42,238.42,True
+P000264,Summit House Outerwear Veniam,apparel,outerwear,Summit House,12.7,7.38,False
+P000265,Evervale Cycling Ullam,sporting_goods,cycling,Evervale,31.93,19.1,True
+P000266,Northline Kitchen Tenetur,home,kitchen,Northline,54.99,31.04,True
+P000267,Brightnest Cycling Consequuntur,sporting_goods,cycling,BrightNest,118.88,63.12,True
+P000268,Summit House Accessories Assumenda,apparel,accessories,Summit House,24.44,12.35,True
+P000269,Maple & Main Pantry Necessitatibus,grocery,pantry,Maple & Main,18.53,10.36,True
+P000270,Fieldstone Footwear Labore,apparel,footwear,Fieldstone,32.79,19.86,True
+P000271,Cedar Works Cleaning Corrupti,home,cleaning,Cedar Works,18.28,8.44,True
+P000272,Northline Mobile Accessories Expedita,electronics,mobile_accessories,Northline,183.75,99.5,True
+P000273,Maple & Main Outdoor Earum,sporting_goods,outdoor,Maple & Main,86.65,59.04,True
+P000274,Urban Trail Kitchen Eaque,home,kitchen,Urban Trail,50.38,29.24,False
+P000275,Maple & Main Cycling Quidem,sporting_goods,cycling,Maple & Main,40.34,20.59,True
+P000276,Canopy Co. Bottoms Occaecati,apparel,bottoms,Canopy Co.,18.52,8.43,True
+P000277,Northline Pet Deserunt,grocery,pet,Northline,13.21,9.17,True
+P000278,Urban Trail Storage Nisi,home,storage,Urban Trail,63.95,45.45,True
+P000279,Harbour Goods Outerwear Ducimus,apparel,outerwear,Harbour Goods,19.94,8.94,True
+P000280,Summit House Beverages Hic,grocery,beverages,Summit House,22.72,15.28,True
+P000281,Summit House Accessories Officiis,apparel,accessories,Summit House,42.53,24.8,True
+P000282,Fieldstone Team Sports Expedita,sporting_goods,team_sports,Fieldstone,12.47,6.94,True
+P000283,Trueleaf Mobile Accessories Autem,electronics,mobile_accessories,TrueLeaf,238.44,105.69,True
+P000284,Canopy Co. Kitchen Numquam,home,kitchen,Canopy Co.,84.66,36.45,True
+P000285,Canopy Co. Bottoms Quo,apparel,bottoms,Canopy Co.,43.43,24.96,True
+P000286,Lakeview Fitness Consequuntur,sporting_goods,fitness,Lakeview,50.49,23.53,True
+P000287,Cedar Works Tops Architecto,apparel,tops,Cedar Works,37.16,21.59,True
+P000288,Summit House Outerwear Totam,apparel,outerwear,Summit House,90.32,61.35,True
+P000289,Northline Mobile Accessories Quis,electronics,mobile_accessories,Northline,473.66,261.15,True
+P000290,Summit House Bedding Accusantium,home,bedding,Summit House,36.43,17.3,True
+P000291,Fieldstone Skincare Consectetur,beauty,skincare,Fieldstone,35.87,17.52,True
+P000292,Canopy Co. Footwear Ex,apparel,footwear,Canopy Co.,21.8,9.86,True
+P000293,Cedar Works Kitchen Doloremque,home,kitchen,Cedar Works,32.46,23.32,True
+P000294,Urban Trail Cleaning Nemo,home,cleaning,Urban Trail,48.44,28.96,True
+P000295,Maple & Main Makeup Placeat,beauty,makeup,Maple & Main,65.39,36.66,True
+P000296,Maple & Main Storage Perspiciatis,home,storage,Maple & Main,52.19,32.07,True
+P000297,Brightnest Decor Error,home,decor,BrightNest,127.71,77.82,True
+P000298,Fieldstone Makeup Natus,beauty,makeup,Fieldstone,19.3,10.25,True
+P000299,Cedar Works Snacks Assumenda,grocery,snacks,Cedar Works,8.77,4.89,True
+P000300,Northline Snacks Doloremque,grocery,snacks,Northline,25.95,15.78,True
+P000301,Harbour Goods Cycling Modi,sporting_goods,cycling,Harbour Goods,191.1,135.07,True
+P000302,Harbour Goods Bottoms A,apparel,bottoms,Harbour Goods,42.67,29.22,True
+P000303,Lakeview Pet Molestias,grocery,pet,Lakeview,23.22,13.09,True
+P000304,Harbour Goods Audio Fuga,electronics,audio,Harbour Goods,97.92,57.29,True
+P000305,Urban Trail Outerwear Odit,apparel,outerwear,Urban Trail,38.29,24.68,True
+P000306,Summit House Decor Illo,home,decor,Summit House,29.6,15.63,True
+P000307,Trueleaf Bedding Nisi,home,bedding,TrueLeaf,14.1,9.1,True
+P000308,Northline Audio Voluptatem,electronics,audio,Northline,146.01,74.6,True
+P000309,Summit House Computers Quos,electronics,computers,Summit House,60.32,34.34,True
+P000310,Canopy Co. Household Ut,grocery,household,Canopy Co.,4.99,3.43,True
+P000311,Urban Trail Snacks Placeat,grocery,snacks,Urban Trail,26.82,11.39,True
+P000312,Trueleaf Decor Dolor,home,decor,TrueLeaf,47.21,27.65,True
+P000313,Lakeview Footwear Eaque,apparel,footwear,Lakeview,46.39,31.29,False
+P000314,Evervale Pantry Impedit,grocery,pantry,Evervale,22.83,12.34,True
+P000315,Canopy Co. Makeup Esse,beauty,makeup,Canopy Co.,12.65,7.43,True
+P000316,Lakeview Bottoms Aspernatur,apparel,bottoms,Lakeview,23.9,16.85,True
+P000317,Fieldstone Pantry Repellendus,grocery,pantry,Fieldstone,11.27,5.33,True
+P000318,Evervale Gaming Quis,electronics,gaming,Evervale,109.72,68.39,True
+P000319,Harbour Goods Gaming Assumenda,electronics,gaming,Harbour Goods,44.06,22.0,True
+P000320,Harbour Goods Storage Ipsam,home,storage,Harbour Goods,36.24,23.61,True
+P000321,Lakeview Pet Aspernatur,grocery,pet,Lakeview,15.85,9.37,False
+P000322,Lakeview Bottoms Architecto,apparel,bottoms,Lakeview,30.91,20.49,True
+P000323,Fieldstone Bedding Reprehenderit,home,bedding,Fieldstone,12.53,5.97,True
+P000324,Urban Trail Decor Perferendis,home,decor,Urban Trail,19.99,12.24,True
+P000325,Trueleaf Fitness Provident,sporting_goods,fitness,TrueLeaf,71.99,50.17,True
+P000326,Summit House Pantry Quia,grocery,pantry,Summit House,26.04,14.6,True
+P000327,Urban Trail Outerwear Dolore,apparel,outerwear,Urban Trail,41.62,27.42,True
+P000328,Harbour Goods Household Aspernatur,grocery,household,Harbour Goods,13.96,6.93,True
+P000329,Trueleaf Team Sports Quaerat,sporting_goods,team_sports,TrueLeaf,299.72,202.01,True
+P000330,Northline Tops Beatae,apparel,tops,Northline,33.82,22.15,True
+P000331,Evervale Cycling Ea,sporting_goods,cycling,Evervale,16.62,8.12,True
+P000332,Harbour Goods Beverages Atque,grocery,beverages,Harbour Goods,10.76,6.97,True
+P000333,Canopy Co. Pantry Saepe,grocery,pantry,Canopy Co.,7.07,3.9,True
+P000334,Fieldstone Cleaning Atque,home,cleaning,Fieldstone,52.01,33.54,True
+P000335,Lakeview Accessories Veniam,apparel,accessories,Lakeview,33.92,19.39,True
+P000336,Summit House Cleaning Ex,home,cleaning,Summit House,31.4,15.51,True
+P000337,Cedar Works Snacks Necessitatibus,grocery,snacks,Cedar Works,7.73,5.09,False
+P000338,Canopy Co. Pet Cumque,grocery,pet,Canopy Co.,45.79,24.07,True
+P000339,Canopy Co. Kitchen Reiciendis,home,kitchen,Canopy Co.,28.56,15.53,True
+P000340,Summit House Computers Expedita,electronics,computers,Summit House,93.45,66.73,True
+P000341,Summit House Audio Repellendus,electronics,audio,Summit House,32.12,19.33,True
+P000342,Maple & Main Pet Saepe,grocery,pet,Maple & Main,7.96,5.04,True
+P000343,Maple & Main Decor Animi,home,decor,Maple & Main,55.71,37.85,True
+P000344,Canopy Co. Decor Sit,home,decor,Canopy Co.,30.96,19.96,True
+P000345,Fieldstone Snacks Beatae,grocery,snacks,Fieldstone,16.95,8.22,True
+P000346,Lakeview Household Nihil,grocery,household,Lakeview,7.16,3.06,True
+P000347,Brightnest Pantry Unde,grocery,pantry,BrightNest,5.49,3.18,True
+P000348,Brightnest Kitchen Reprehenderit,home,kitchen,BrightNest,67.52,46.35,True
+P000349,Cedar Works Gaming Recusandae,electronics,gaming,Cedar Works,91.91,65.41,True
+P000350,Harbour Goods Winter Sports Quasi,sporting_goods,winter_sports,Harbour Goods,84.22,40.72,True
+P000351,Maple & Main Bottoms Ipsam,apparel,bottoms,Maple & Main,78.68,34.79,True
+P000352,Cedar Works Household Facilis,grocery,household,Cedar Works,16.17,9.85,True
+P000353,Cedar Works Fragrance Enim,beauty,fragrance,Cedar Works,14.49,8.03,True
+P000354,Lakeview Kitchen Velit,home,kitchen,Lakeview,26.85,13.38,True
+P000355,Evervale Smart Home Ipsam,electronics,smart_home,Evervale,39.72,24.85,True
+P000356,Summit House Accessories Excepturi,apparel,accessories,Summit House,26.54,12.87,True
+P000357,Harbour Goods Fitness Fuga,sporting_goods,fitness,Harbour Goods,44.21,22.41,True
+P000358,Brightnest Fragrance Nam,beauty,fragrance,BrightNest,17.08,7.86,True
+P000359,Fieldstone Fragrance Delectus,beauty,fragrance,Fieldstone,16.9,9.36,True
+P000360,Lakeview Accessories Velit,apparel,accessories,Lakeview,21.91,14.09,True
+P000361,Cedar Works Beverages Tenetur,grocery,beverages,Cedar Works,16.16,9.08,True
+P000362,Canopy Co. Makeup In,beauty,makeup,Canopy Co.,15.05,8.71,True
+P000363,Maple & Main Pantry Officia,grocery,pantry,Maple & Main,16.33,9.22,True
+P000364,Urban Trail Decor Ipsam,home,decor,Urban Trail,70.43,39.1,True
+P000365,Northline Tops Aut,apparel,tops,Northline,33.0,18.14,True
+P000366,Maple & Main Household Accusamus,grocery,household,Maple & Main,13.5,6.29,True
+P000367,Brightnest Outerwear Officia,apparel,outerwear,BrightNest,40.41,24.75,True
+P000368,Lakeview Pantry Soluta,grocery,pantry,Lakeview,19.39,11.05,True
+P000369,Canopy Co. Snacks Recusandae,grocery,snacks,Canopy Co.,6.44,3.26,True
+P000370,Cedar Works Smart Home Consequuntur,electronics,smart_home,Cedar Works,158.39,113.58,True
+P000371,Evervale Makeup Aut,beauty,makeup,Evervale,35.08,16.88,True
+P000372,Harbour Goods Snacks Quidem,grocery,snacks,Harbour Goods,23.04,16.49,False
+P000373,Summit House Team Sports Error,sporting_goods,team_sports,Summit House,62.28,32.15,True
+P000374,Cedar Works Skincare Quae,beauty,skincare,Cedar Works,28.16,15.28,True
+P000375,Harbour Goods Computers Fuga,electronics,computers,Harbour Goods,100.25,47.78,True
+P000376,Lakeview Kitchen Delectus,home,kitchen,Lakeview,41.11,24.1,True
+P000377,Lakeview Mobile Accessories Laudantium,electronics,mobile_accessories,Lakeview,116.97,58.78,True
+P000378,Cedar Works Accessories Atque,apparel,accessories,Cedar Works,30.7,20.71,True
+P000379,Urban Trail Haircare Exercitationem,beauty,haircare,Urban Trail,16.71,7.38,True
+P000380,Maple & Main Fitness Maxime,sporting_goods,fitness,Maple & Main,53.79,37.18,True
+P000381,Lakeview Accessories Id,apparel,accessories,Lakeview,25.72,16.39,True
+P000382,Urban Trail Winter Sports Dolore,sporting_goods,winter_sports,Urban Trail,90.14,50.77,True
+P000383,Maple & Main Footwear Nulla,apparel,footwear,Maple & Main,62.8,39.78,True
+P000384,Brightnest Decor Quisquam,home,decor,BrightNest,23.77,15.52,True
+P000385,Northline Pantry Voluptatibus,grocery,pantry,Northline,11.0,6.61,True
+P000386,Lakeview Accessories Incidunt,apparel,accessories,Lakeview,16.48,8.97,True
+P000387,Canopy Co. Beverages Similique,grocery,beverages,Canopy Co.,25.33,17.7,True
+P000388,Canopy Co. Team Sports Ullam,sporting_goods,team_sports,Canopy Co.,61.42,39.86,False
+P000389,Canopy Co. Outdoor Quia,sporting_goods,outdoor,Canopy Co.,79.87,35.42,True
+P000390,Brightnest Personal Care Accusamus,beauty,personal_care,BrightNest,20.16,11.92,True
+P000391,Maple & Main Household Vel,grocery,household,Maple & Main,24.83,16.75,True
+P000392,Harbour Goods Decor Quod,home,decor,Harbour Goods,30.22,19.34,True
+P000393,Lakeview Bottoms In,apparel,bottoms,Lakeview,27.62,19.41,True
+P000394,Evervale Accessories Ut,apparel,accessories,Evervale,32.62,22.04,True
+P000395,Canopy Co. Fragrance Corporis,beauty,fragrance,Canopy Co.,26.79,16.82,False
+P000396,Northline Outerwear Deleniti,apparel,outerwear,Northline,23.61,12.32,True
+P000397,Summit House Storage Fuga,home,storage,Summit House,45.73,23.8,True
+P000398,Evervale Bedding Cum,home,bedding,Evervale,63.69,44.96,True
+P000399,Evervale Bottoms Corrupti,apparel,bottoms,Evervale,24.82,11.48,True
+P000400,Maple & Main Pantry Quod,grocery,pantry,Maple & Main,17.41,8.04,True
+P000401,Cedar Works Decor Dolor,home,decor,Cedar Works,34.7,14.91,True
+P000402,Brightnest Bedding Fugit,home,bedding,BrightNest,15.7,6.66,True
+P000403,Trueleaf Bedding Id,home,bedding,TrueLeaf,30.56,16.3,True
+P000404,Maple & Main Skincare Sed,beauty,skincare,Maple & Main,27.92,14.61,True
+P000405,Summit House Tops Eos,apparel,tops,Summit House,42.33,18.06,True
+P000406,Harbour Goods Pet Laboriosam,grocery,pet,Harbour Goods,17.93,10.93,True
+P000407,Maple & Main Cycling Enim,sporting_goods,cycling,Maple & Main,41.84,24.44,True
+P000408,Canopy Co. Mobile Accessories Vitae,electronics,mobile_accessories,Canopy Co.,93.14,51.76,True
+P000409,Urban Trail Mobile Accessories Tempora,electronics,mobile_accessories,Urban Trail,345.17,194.14,True
+P000410,Canopy Co. Footwear Fuga,apparel,footwear,Canopy Co.,35.58,20.32,True
+P000411,Canopy Co. Kitchen Quae,home,kitchen,Canopy Co.,40.75,28.98,True
+P000412,Evervale Storage Porro,home,storage,Evervale,19.38,9.76,True
+P000413,Cedar Works Bedding Explicabo,home,bedding,Cedar Works,77.8,37.03,True
+P000414,Trueleaf Outerwear Asperiores,apparel,outerwear,TrueLeaf,46.14,28.79,True
+P000415,Harbour Goods Haircare Consectetur,beauty,haircare,Harbour Goods,37.3,19.57,True
+P000416,Trueleaf Storage Tempora,home,storage,TrueLeaf,24.6,14.55,True
+P000417,Trueleaf Team Sports Nisi,sporting_goods,team_sports,TrueLeaf,92.0,52.29,True
+P000418,Fieldstone Smart Home Harum,electronics,smart_home,Fieldstone,103.3,68.39,True
+P000419,Fieldstone Skincare Aperiam,beauty,skincare,Fieldstone,16.66,11.96,True
+P000420,Cedar Works Tops A,apparel,tops,Cedar Works,28.82,13.64,True
+P000421,Canopy Co. Tops Iusto,apparel,tops,Canopy Co.,30.32,13.09,True
+P000422,Harbour Goods Audio Delectus,electronics,audio,Harbour Goods,103.5,49.46,True
+P000423,Trueleaf Cleaning Tempore,home,cleaning,TrueLeaf,25.6,11.44,True
+P000424,Summit House Bottoms Fuga,apparel,bottoms,Summit House,52.46,36.65,True
+P000425,Harbour Goods Cleaning Dolorem,home,cleaning,Harbour Goods,51.11,33.19,True
+P000426,Urban Trail Fitness Numquam,sporting_goods,fitness,Urban Trail,63.56,42.07,True
+P000427,Northline Team Sports Quod,sporting_goods,team_sports,Northline,141.02,91.81,True
+P000428,Maple & Main Skincare Voluptatibus,beauty,skincare,Maple & Main,23.06,15.21,True
+P000429,Northline Snacks Nobis,grocery,snacks,Northline,17.2,9.36,True
+P000430,Harbour Goods Decor Ratione,home,decor,Harbour Goods,51.66,28.29,True
+P000431,Evervale Gaming Accusamus,electronics,gaming,Evervale,170.85,88.56,True
+P000432,Harbour Goods Decor Culpa,home,decor,Harbour Goods,39.88,18.57,True
+P000433,Trueleaf Fragrance Autem,beauty,fragrance,TrueLeaf,39.54,19.65,False
+P000434,Canopy Co. Beverages Voluptas,grocery,beverages,Canopy Co.,10.92,5.05,True
+P000435,Summit House Bottoms Distinctio,apparel,bottoms,Summit House,58.36,29.12,True
+P000436,Cedar Works Bottoms Quisquam,apparel,bottoms,Cedar Works,23.96,10.48,True
+P000437,Maple & Main Pantry Amet,grocery,pantry,Maple & Main,16.57,8.24,True
+P000438,Canopy Co. Bottoms Maxime,apparel,bottoms,Canopy Co.,36.63,17.43,True
+P000439,Fieldstone Haircare Reprehenderit,beauty,haircare,Fieldstone,19.15,8.94,True
+P000440,Urban Trail Cycling Quod,sporting_goods,cycling,Urban Trail,123.43,69.7,True
+P000441,Northline Accessories Dignissimos,apparel,accessories,Northline,15.35,10.81,True
+P000442,Urban Trail Smart Home Non,electronics,smart_home,Urban Trail,80.66,38.48,True
+P000443,Fieldstone Computers Debitis,electronics,computers,Fieldstone,141.94,61.27,True
+P000444,Brightnest Computers Animi,electronics,computers,BrightNest,27.01,19.04,True
+P000445,Northline Beverages Inventore,grocery,beverages,Northline,12.67,6.72,True
+P000446,Maple & Main Gaming Maiores,electronics,gaming,Maple & Main,49.43,24.54,True
+P000447,Harbour Goods Footwear Animi,apparel,footwear,Harbour Goods,33.33,17.88,True
+P000448,Summit House Cleaning Magnam,home,cleaning,Summit House,42.33,25.24,False
+P000449,Evervale Kitchen Eos,home,kitchen,Evervale,50.34,22.03,True
+P000450,Canopy Co. Beverages Vero,grocery,beverages,Canopy Co.,27.97,12.53,True
+P000451,Summit House Footwear Expedita,apparel,footwear,Summit House,31.69,20.18,True
+P000452,Brightnest Personal Care Vel,beauty,personal_care,BrightNest,26.69,17.96,True
+P000453,Cedar Works Tops Corporis,apparel,tops,Cedar Works,42.98,29.14,True
+P000454,Lakeview Kitchen Libero,home,kitchen,Lakeview,21.25,13.41,True
+P000455,Evervale Outerwear Ratione,apparel,outerwear,Evervale,31.8,15.26,True
+P000456,Fieldstone Fitness Nemo,sporting_goods,fitness,Fieldstone,28.04,14.36,True
+P000457,Fieldstone Tops Sit,apparel,tops,Fieldstone,23.69,9.98,True
+P000458,Summit House Outdoor Dolor,sporting_goods,outdoor,Summit House,87.47,49.49,True
+P000459,Cedar Works Smart Home Ex,electronics,smart_home,Cedar Works,118.24,70.88,True
+P000460,Maple & Main Winter Sports Dolorem,sporting_goods,winter_sports,Maple & Main,65.11,30.87,True
+P000461,Lakeview Audio Dolorum,electronics,audio,Lakeview,85.63,48.71,True
+P000462,Maple & Main Accessories Neque,apparel,accessories,Maple & Main,43.99,19.54,True
+P000463,Lakeview Outdoor Alias,sporting_goods,outdoor,Lakeview,170.27,100.82,True
+P000464,Trueleaf Skincare Dolorum,beauty,skincare,TrueLeaf,40.12,18.52,True
+P000465,Evervale Snacks Iusto,grocery,snacks,Evervale,43.59,25.73,True
+P000466,Maple & Main Footwear Neque,apparel,footwear,Maple & Main,56.9,28.81,True
+P000467,Evervale Accessories Velit,apparel,accessories,Evervale,23.63,10.55,True
+P000468,Evervale Outerwear Expedita,apparel,outerwear,Evervale,9.55,5.58,True
+P000469,Urban Trail Pet Fugiat,grocery,pet,Urban Trail,15.74,11.28,True
+P000470,Maple & Main Pet Dolore,grocery,pet,Maple & Main,28.96,19.86,True
+P000471,Harbour Goods Household Voluptates,grocery,household,Harbour Goods,18.77,9.95,True
+P000472,Harbour Goods Decor Corrupti,home,decor,Harbour Goods,71.53,35.43,True
+P000473,Evervale Accessories Modi,apparel,accessories,Evervale,64.17,29.53,True
+P000474,Lakeview Pantry Amet,grocery,pantry,Lakeview,17.59,7.43,True
+P000475,Canopy Co. Pantry Optio,grocery,pantry,Canopy Co.,22.77,14.67,True
+P000476,Summit House Haircare Est,beauty,haircare,Summit House,11.34,4.8,True
+P000477,Harbour Goods Winter Sports Eligendi,sporting_goods,winter_sports,Harbour Goods,41.24,18.86,True
+P000478,Summit House Haircare Officia,beauty,haircare,Summit House,25.41,17.48,True
+P000479,Cedar Works Computers Laudantium,electronics,computers,Cedar Works,124.81,64.77,True
+P000480,Canopy Co. Pet Inventore,grocery,pet,Canopy Co.,13.35,7.76,True
+P000481,Lakeview Bottoms Eum,apparel,bottoms,Lakeview,27.81,12.24,True
+P000482,Lakeview Tops Et,apparel,tops,Lakeview,31.45,14.12,True
+P000483,Maple & Main Pantry Alias,grocery,pantry,Maple & Main,11.42,6.96,True
+P000484,Fieldstone Pet Unde,grocery,pet,Fieldstone,7.85,4.06,True
+P000485,Brightnest Fitness Earum,sporting_goods,fitness,BrightNest,87.16,48.04,True
+P000486,Northline Team Sports Natus,sporting_goods,team_sports,Northline,24.22,14.09,True
+P000487,Maple & Main Skincare Iure,beauty,skincare,Maple & Main,23.97,14.26,True
+P000488,Fieldstone Makeup Hic,beauty,makeup,Fieldstone,28.86,18.96,True
+P000489,Brightnest Kitchen Atque,home,kitchen,BrightNest,17.75,8.91,True
+P000490,Fieldstone Beverages Hic,grocery,beverages,Fieldstone,10.43,6.23,True
+P000491,Summit House Pet Laudantium,grocery,pet,Summit House,28.8,17.21,True
+P000492,Evervale Cleaning Temporibus,home,cleaning,Evervale,15.95,9.19,True
+P000493,Northline Footwear Quaerat,apparel,footwear,Northline,55.16,29.34,True
+P000494,Lakeview Cleaning Natus,home,cleaning,Lakeview,18.9,9.85,True
+P000495,Summit House Cleaning Veritatis,home,cleaning,Summit House,25.05,11.36,True
+P000496,Trueleaf Fitness Quidem,sporting_goods,fitness,TrueLeaf,104.33,72.72,True
+P000497,Cedar Works Cleaning Iure,home,cleaning,Cedar Works,58.55,38.98,True
+P000498,Fieldstone Footwear Aliquam,apparel,footwear,Fieldstone,46.81,31.3,True
+P000499,Canopy Co. Outerwear Cum,apparel,outerwear,Canopy Co.,22.82,13.23,True
+P000500,Urban Trail Storage Facilis,home,storage,Urban Trail,16.1,7.23,True
