@@ -1,0 +1,276 @@
+version: 2
+
+models:
+  - name: int_sales_enriched
+    description: Sales line items enriched with product, store, customer, and employee context.
+    columns:
+      - name: sale_id
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('stg_sales')
+              field: sale_id
+      - name: product_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_products')
+              field: product_id
+      - name: store_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_stores')
+              field: store_id
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+      - name: employee_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_employees')
+              field: employee_id
+      - name: net_sale_amount
+        tests:
+          - not_null
+      - name: discount_rate
+        tests:
+          - not_null
+
+  - name: int_returns_enriched
+    description: Return events enriched with sale dates and dimensional context.
+    columns:
+      - name: return_id
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('stg_returns')
+              field: return_id
+      - name: sale_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_sales')
+              field: sale_id
+      - name: return_amount
+        tests:
+          - not_null
+      - name: return_reason
+        tests:
+          - not_null
+          - accepted_values:
+              values:
+                - changed_mind
+                - wrong_size
+                - defective
+                - damaged
+                - not_as_described
+                - duplicate_purchase
+                - late_delivery
+                - other
+
+  - name: int_sales_returns_joined
+    description: One-row-per-sale view with return metrics aggregated onto each sale line.
+    columns:
+      - name: sale_id
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('stg_sales')
+              field: sale_id
+      - name: returned_flag
+        tests:
+          - not_null
+      - name: return_count
+        tests:
+          - not_null
+      - name: unit_return_rate
+        tests:
+          - not_null
+
+  - name: mart_daily_sales_returns_summary
+    description: Daily sales and return metrics.
+    columns:
+      - name: calendar_date
+        tests:
+          - not_null
+          - unique
+      - name: total_sales
+        tests:
+          - not_null
+      - name: total_sales_amount
+        tests:
+          - not_null
+      - name: total_returns
+        tests:
+          - not_null
+      - name: total_return_amount
+        tests:
+          - not_null
+      - name: return_rate
+        tests:
+          - not_null
+      - name: net_revenue_after_returns
+        tests:
+          - not_null
+
+  - name: mart_return_rate_by_product
+    description: Product-level sales, return, and high-return metrics.
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('stg_products')
+              field: product_id
+      - name: total_units_sold
+        tests:
+          - not_null
+      - name: total_sales_amount
+        tests:
+          - not_null
+      - name: total_units_returned
+        tests:
+          - not_null
+      - name: total_return_amount
+        tests:
+          - not_null
+      - name: return_rate
+        tests:
+          - not_null
+      - name: high_return_product_flag
+        tests:
+          - not_null
+
+  - name: mart_return_rate_by_store
+    description: Store-level sales and return performance metrics.
+    columns:
+      - name: store_id
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('stg_stores')
+              field: store_id
+      - name: total_sales
+        tests:
+          - not_null
+      - name: total_sales_amount
+        tests:
+          - not_null
+      - name: total_returns
+        tests:
+          - not_null
+      - name: total_return_amount
+        tests:
+          - not_null
+      - name: return_rate
+        tests:
+          - not_null
+      - name: no_receipt_return_rate
+        tests:
+          - not_null
+      - name: policy_exception_rate
+        tests:
+          - not_null
+
+  - name: mart_return_reason_summary
+    description: Return reason distribution and value metrics.
+    columns:
+      - name: return_reason
+        tests:
+          - not_null
+          - unique
+          - accepted_values:
+              values:
+                - changed_mind
+                - wrong_size
+                - defective
+                - damaged
+                - not_as_described
+                - duplicate_purchase
+                - late_delivery
+                - other
+      - name: total_returns
+        tests:
+          - not_null
+      - name: total_return_amount
+        tests:
+          - not_null
+      - name: percent_of_returns
+        tests:
+          - not_null
+      - name: average_return_amount
+        tests:
+          - not_null
+
+  - name: mart_return_policy_exceptions
+    description: Return-level table limited to unusual or policy-exception returns.
+    columns:
+      - name: return_id
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('stg_returns')
+              field: return_id
+      - name: sale_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_sales')
+              field: sale_id
+      - name: exception_reason
+        tests:
+          - not_null
+      - name: return_reason
+        tests:
+          - not_null
+          - accepted_values:
+              values:
+                - changed_mind
+                - wrong_size
+                - defective
+                - damaged
+                - not_as_described
+                - duplicate_purchase
+                - late_delivery
+                - other
+
+  - name: mart_employee_return_activity
+    description: Employee-level return processing metrics.
+    columns:
+      - name: employee_id
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('stg_employees')
+              field: employee_id
+      - name: total_returns_processed
+        tests:
+          - not_null
+      - name: total_return_amount_processed
+        tests:
+          - not_null
+      - name: no_receipt_returns_processed
+        tests:
+          - not_null
+      - name: policy_exception_returns_processed
+        tests:
+          - not_null
+      - name: average_return_amount
+        tests:
+          - not_null
+      - name: unusual_return_activity_flag
+        tests:
+          - not_null
+

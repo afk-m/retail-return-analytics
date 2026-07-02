@@ -2,3 +2,8 @@ pandas
 numpy
 Faker
 pytest
+dbt-snowflake
+streamlit
+plotly
+snowflake-connector-python
+python-dotenv

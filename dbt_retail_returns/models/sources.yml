@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RETAIL_RETURNS_ANALYTICS
+    schema: RAW
+    description: Raw Snowflake tables loaded from generated CSV files.
+    tables:
+      - name: sales_raw
+        identifier: SALES_RAW
+        description: Raw sales line items from sales.csv.
+      - name: returns_raw
+        identifier: RETURNS_RAW
+        description: Raw return events from returns.csv.
+      - name: products_raw
+        identifier: PRODUCTS_RAW
+        description: Raw product records from products.csv.
+      - name: stores_raw
+        identifier: STORES_RAW
+        description: Raw store records from stores.csv.
+      - name: customers_raw
+        identifier: CUSTOMERS_RAW
+        description: Raw non-identifying customer records from customers.csv.
+      - name: employees_raw
+        identifier: EMPLOYEES_RAW
+        description: Raw non-identifying employee records from employees.csv.
+

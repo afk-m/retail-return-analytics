@@ -1,0 +1,25 @@
+name: retail_returns
+version: 1.0.0
+config-version: 2
+
+profile: retail_returns
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+clean-targets:
+  - target
+  - dbt_packages
+
+models:
+  retail_returns:
+    +database: RETAIL_RETURNS_ANALYTICS
+    +materialized: view
+    staging:
+      +materialized: view
+    intermediate:
+      +schema: INTERMEDIATE
+      +materialized: view
+    marts:
+      +schema: MARTS
+      +materialized: table
