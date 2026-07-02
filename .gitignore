@@ -1,0 +1,8 @@
+.venv/
+.env
+.pytest_cache/
+__pycache__/
+*.pyc
+
+dbt_retail_returns/target/
+dbt_retail_returns/logs/

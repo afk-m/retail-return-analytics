@@ -1,0 +1,104 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: Cleaned one-row-per-sale-line staging view.
+    columns:
+      - name: sale_id
+        description: Unique sale line identifier.
+        tests:
+          - not_null
+          - unique
+      - name: sale_amount
+        description: Sale amount after discount.
+        tests:
+          - not_null
+      - name: payment_method
+        description: Normalized payment method.
+        tests:
+          - accepted_values:
+              values:
+                - credit_card
+                - debit_card
+                - cash
+                - gift_card
+                - store_credit
+      - name: sales_channel
+        description: Normalized sales channel.
+        tests:
+          - accepted_values:
+              values:
+                - in_store
+                - online
+                - curbside_pickup
+
+  - name: stg_returns
+    description: Cleaned one-row-per-return staging view.
+    columns:
+      - name: return_id
+        description: Unique return identifier.
+        tests:
+          - not_null
+          - unique
+      - name: return_amount
+        description: Amount refunded or credited.
+        tests:
+          - not_null
+      - name: return_reason
+        description: Normalized return reason.
+        tests:
+          - accepted_values:
+              values:
+                - changed_mind
+                - wrong_size
+                - defective
+                - damaged
+                - not_as_described
+                - duplicate_purchase
+                - late_delivery
+                - other
+      - name: return_channel
+        description: Normalized return channel.
+        tests:
+          - accepted_values:
+              values:
+                - in_store
+                - mail
+                - curbside
+
+  - name: stg_products
+    description: Cleaned one-row-per-product staging view.
+    columns:
+      - name: product_id
+        description: Unique product identifier.
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_stores
+    description: Cleaned one-row-per-store staging view.
+    columns:
+      - name: store_id
+        description: Unique store identifier.
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_customers
+    description: Cleaned one-row-per-non-identifying-customer staging view.
+    columns:
+      - name: customer_id
+        description: Unique synthetic customer identifier.
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_employees
+    description: Cleaned one-row-per-non-identifying-employee staging view.
+    columns:
+      - name: employee_id
+        description: Unique synthetic employee identifier.
+        tests:
+          - not_null
+          - unique
+
