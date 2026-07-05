@@ -73,14 +73,39 @@ Synthetic CSV generator -> Snowflake RAW -> dbt STAGING -> dbt INTERMEDIATE -> d
 
 ## Screenshots
 
-Coming soon! These are just placeholders!
+Screenshots are shown in the same order as the Streamlit dashboard.
 
-- ![Streamlit overview](http://localhost)
-- ![Product returns tab](http://localhost)
-- ![Store returns tab](http://localhost)
-- ![Policy exceptions tab](http://localhost)
-- ![dbt test results](http://localhost)
-- ![Snowflake marts schema](http://localhost)
+### Overview
+
+![Streamlit overview](<docs/screenshots/summary.png>)
+
+### Daily Trends
+
+![Daily trends](<docs/screenshots/daily trends.png>)
+
+### Product Returns
+
+![Product returns graphs](<docs/screenshots/product returns graphs.png>)
+
+![High return products list](<docs/screenshots/high return products list.png>)
+
+### Store Returns
+
+![Store returns tab](<docs/screenshots/per store returns.png>)
+
+### Return Reasons
+
+![Return reasons dashboard](<docs/screenshots/return reasons dashboard.png>)
+
+### Policy Exceptions
+
+![Policy exceptions overview](<docs/screenshots/policy exceptions overall.png>)
+
+![Policy exceptions filters](<docs/screenshots/policy exceptions filter.png>)
+
+### Employee Activity
+
+![Employee return activity](<docs/screenshots/employee return activity.png>)
 
 ## How to Run
 
@@ -147,7 +172,7 @@ Then you can update the stage paths in the load template if your files are uploa
 
 ### 6. Configure dbt
 
-Create a local dbt profile named `retail_returns` outside this repo, usually in `~/.dbt/profiles.yml` (at least that's what I used). Use environment variables or another secure credential method:
+Then you must create a local dbt profile named `retail_returns` outside this repo, usually in `~/.dbt/profiles.yml` (at least that's what I used). This is probably the most secure way of doing things. Use environment variables or another secure credential method:
 
 ```yaml
 retail_returns:
